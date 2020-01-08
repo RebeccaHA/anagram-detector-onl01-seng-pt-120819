@@ -11,8 +11,6 @@ class Anagram
      array_of_words.collect do |letter|
       if letter.split("").sort == @word.split("").sort
         letter
-      else
-        []
       end
     end
   end
