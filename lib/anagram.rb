@@ -5,10 +5,9 @@ class Anagram
     @word = word
   end
   
-  def match
-    
-    list = @word.split(" ")
-    @word.each_with_index do |letter|
+  def match(array_of_words)
+    array_of_words.split(" ")
+    .each_with_index do |letter|
       if letter 
     
     
