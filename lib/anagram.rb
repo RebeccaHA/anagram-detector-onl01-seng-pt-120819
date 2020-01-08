@@ -4,6 +4,7 @@ class Anagram
   
   def intialize
     @word = word
+    array << word
   end
   
   def match(words)
