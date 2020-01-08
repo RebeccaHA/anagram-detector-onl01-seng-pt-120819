@@ -8,9 +8,8 @@ class Anagram
   end
   
   def match(array_of_words)
-  starter_word = (@word.split("").sort)
      array_of_words.collect do |letter|
-      if letter.split("").sort == @word.split("").s
+      if letter.split("").sort == @word.split("").sort
         letter
       end
     end
