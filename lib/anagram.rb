@@ -4,4 +4,7 @@ class Anagram
   def intialize
     @word = word
   end
+  
+  def match
+end
 end
