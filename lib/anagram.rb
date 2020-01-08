@@ -1,3 +1,4 @@
+require 'pry'
 class Anagram
   attr_accessor :word
   
@@ -8,6 +9,7 @@ class Anagram
   def match(array_of_words)
     list = array_of_words.split(" ").sort
     new = @word.split(" ").sort
+    binding.pry
     list.collect do |letter|
       if letter == new
         letter
