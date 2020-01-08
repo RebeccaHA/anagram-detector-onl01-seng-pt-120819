@@ -9,9 +9,9 @@ class Anagram
   
   def match(array_of_words)
     list = (array_of_words.split("").sort)
-    word = (@word.split("").sort)
+    starter_word = (@word.split("").sort)
      list.collect do |letter|
-      if letter == word
+      if letter == starter_word
         letter
       end
     end
