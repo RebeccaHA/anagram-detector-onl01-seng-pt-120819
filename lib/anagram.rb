@@ -10,5 +10,6 @@ class Anagram
     anagrams = @word.split(" ")
     
     
+    
 end
 end
