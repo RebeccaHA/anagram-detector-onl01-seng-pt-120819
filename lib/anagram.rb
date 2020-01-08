@@ -1,7 +1,7 @@
 class Angram
-  attr_accessor :word
+  attr_accessor :angram
   
   def intialize
-    @word = word
+    @angram = angram
   end
 end
