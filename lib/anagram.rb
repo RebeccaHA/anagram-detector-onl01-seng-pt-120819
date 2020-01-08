@@ -6,8 +6,8 @@ class Anagram
   end
   
   def match(array_of_words)
-    array_of_words.split(" ")
-    .each_with_index do |letter|
+    list = array_of_words.split(" ")
+    list.each_with_index do |letter|
       if letter 
     
     
